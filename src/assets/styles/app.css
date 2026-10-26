@@ -30,18 +30,18 @@
   --text-theme-xs--line-height: 18px;
 
   /* Brand */
-  --color-brand-25: #f2f7ff;
-  --color-brand-50: #ecf3ff;
-  --color-brand-100: #dde9ff;
-  --color-brand-200: #c2d6ff;
-  --color-brand-300: #9cb9ff;
-  --color-brand-400: #7592ff;
-  --color-brand-500: #465fff;
-  --color-brand-600: #3641f5;
-  --color-brand-700: #2a31d8;
-  --color-brand-800: #252dae;
-  --color-brand-900: #262e89;
-  --color-brand-950: #161950;
+  --color-brand-25: #fffdf2;
+  --color-brand-50: #fff8dc;
+  --color-brand-100: #fff1b8;
+  --color-brand-200: #ffe98d;
+  --color-brand-300: #f8d76b;
+  --color-brand-400: #f3c84f;
+  --color-brand-500: #f2b705;
+  --color-brand-600: #d99b00;
+  --color-brand-700: #b67a00;
+  --color-brand-800: #8b5b00;
+  --color-brand-900: #6b4500;
+  --color-brand-950: #4c2c00;
 
   /* Gray scale */
   --color-gray-25: #fcfcfd;
@@ -116,8 +116,8 @@
 :root {
   --tx-sidebar-bg: #ffffff;
   --tx-sidebar-text: #475467;
-  --tx-sidebar-text-active: #465fff;
-  --tx-sidebar-active-bg: #ecf3ff;
+  --tx-sidebar-text-active: #b67a00;
+  --tx-sidebar-active-bg: #fff8dc;
   --tx-sidebar-border: #e4e7ec;
 
   --tx-body-bg: #f9fafb;
@@ -134,8 +134,8 @@
 :root.dark {
   --tx-sidebar-bg: #1a2231;
   --tx-sidebar-text: #98a2b3;
-  --tx-sidebar-text-active: #ffffff;
-  --tx-sidebar-active-bg: rgba(70, 95, 255, 0.15);
+  --tx-sidebar-text-active: #f8d76b;
+  --tx-sidebar-active-bg: rgba(242, 183, 5, 0.15);
   --tx-sidebar-border: #1f2937;
 
   --tx-body-bg: #101828;
