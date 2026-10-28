@@ -45,7 +45,7 @@ export default function Navbar() {
   return (
     <header className="surface-header sticky top-0 z-40 border-b border-themed">
       {/* top utility bar */}
-      <div className="border-b border-themed bg-brand-500 text-white">
+      <div className="border-b border-themed bg-[#131A22] text-white">
         <div className="mx-auto flex h-9 max-w-7xl items-center justify-center px-4 text-xs font-medium sm:px-6 lg:px-8">
           <IconBase name="truck" size={14} className="mr-1.5" />
           {t('home.benefits.shippingDesc')}
